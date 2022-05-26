@@ -39,9 +39,9 @@
   "Practice touch-typing in emacs."
   :group 'games)
 
-(define-derived-mode speed-type-mode fundamental-mode "asdfjkl;"
+(define-derived-mode speed-type-mode fundamental-mode "Speed Type"
   "Major mode for practicing touch typing with major literature
-  books from gutenberg or any text of your choise."
+  books from gutenberg or any text of your choice."
   :group "speed-type")
 
 (defcustom speed-type-min-chars 200
