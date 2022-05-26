@@ -4,8 +4,7 @@ Practice touch/speed typing in emacs.
 
 ## PLEASE NOTE
 
-**This fork is now the official source for the speed-type package.
-Please open pull requests and issues here!**
+**This Fork is an attempt for Personal use and only differs in Applying 2 pull request from @texaco on major-mode and custom-face**
 
 ![Screenshot](https://raw.github.com/parkouss/speed-type/master/speed-type-screen-shot.png)
 
@@ -56,7 +55,6 @@ you want the whole buffer, use C-u speed-type-buffer.
 Random samples are taken from Project Gutenberg. A small number of books will be
 downloaded on demand and stored in "~/emacs.d/speed-type". They will only be
 downloaded once.
-
 
 [melpa-link]: https://melpa.org/#/speed-type
 [melpa-stable-link]: https://stable.melpa.org/#/speed-type
