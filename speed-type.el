@@ -39,6 +39,11 @@
   "Practice touch-typing in emacs."
   :group 'games)
 
+(define-derived-mode speed-type-mode fundamental-mode "asdfjkl;"
+  "Major mode for practicing touch typing with major literature
+  books from gutenberg or any text of your choise."
+  :group "speed-type")
+
 (defcustom speed-type-min-chars 200
   "The minimum number of chars to type required when the text to type is picked randomly."
   :group 'speed-type
@@ -399,6 +404,7 @@ language symbol and N-WORDS is the top N words that should be trained.
         (len (length text)))
     (set-buffer buf)
 	(buffer-face-set 'speed-type-default)
+    (speed-type-mode)
     (setq speed-type--orig-text text)
     (setq speed-type--mod-str (make-string len 0))
     (setq speed-type--remaining len)
